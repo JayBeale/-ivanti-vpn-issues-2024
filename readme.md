@@ -11,7 +11,7 @@
 |[CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
 
 
-## CVE-2023-46805 and CVE-2024-21887 -  Authentication Bypass and Command Execution
+## CVE-2023-46805 and CVE-2024-21887 -  disclosed Wed, Jan 10
 
 | Resource Type        | Link                                                                            | Notes |
 | -------------------- | ------------------------------------------------------------------------------- | ----- |
@@ -23,7 +23,7 @@
 | CISA Alert           | [CISA Alert 2024/01/10](https://www.cisa.gov/news-events/alerts/2024/01/10/ivanti-releases-security-update-connect-secure-and-policy-secure-gateways) ||| 
 
 
-## CVE-2024-21888 and CVE-2024-21893
+## CVE-2024-21888 and CVE-2024-21893 - disclosed Wed, Jan 31
 
 | Resource Type        | Link                                                                            | Notes |
 | -------------------- | ------------------------------------------------------------------------------- | ----- |
