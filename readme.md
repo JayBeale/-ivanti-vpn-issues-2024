@@ -11,17 +11,42 @@
 |[CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
 
 
-## TL;DR
+## CVE-2023-46805 
 
-| Resource Type | CVE Link | Type | Vendor KB |
-| ------------- | -------- | ---- | --------- |
+| Resource Type | Link | Notes |
+| ------------- | ---- | ----- |
+| KB Article    | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
 | CVE           | [CVE-2023-46805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4680) | Authentication Bypass | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
-| CVE           | [CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887) | Command Execution for Authn'd Admins | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
-| CVE           | [CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) | Privilege escalation in web interface from user to administrator | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
-| CVE           | [CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) | SSRF allowing user-level access without authentication | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
-| CVE           | [CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+| Exploit       | [Metasploit module](http://packetstormsecurity.com/files/176668/Ivanti-Connect-Secure-Unauthenticated-Remote-Code-Execution.html) | Chains together CVE-2023-46805 and CVE-2024-21887 | 
 
- 
+## CVE-2024-21887
+
+| Resource Type | Link | Notes |
+| ------------- | ---- | ----- |
+| CVE           | [CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887) | Command Execution for Authn'd Admins | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+| Vendor KB     | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+| Exploit       | [Metasploit module](http://packetstormsecurity.com/files/176668/Ivanti-Connect-Secure-Unauthenticated-Remote-Code-Execution.html) | Chains together CVE-2023-46805 and CVE-2024-21887 | 
+
+## CVE-2024-21888
+
+| Resource Type | Link | Notes |
+| ------------- | ---- | ----- |
+| CVE           | [CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) | Privilege escalation in web interface from user to administrator | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+| Vendor KB    | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) | |
+
+## CVE-2024-21893
+
+| Resource Type | Link | Notes |
+| ------------- | ---- | ----- |
+| CVE           | [CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) | SSRF allowing user-level access without authentication | 
+| Vendor KB    | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) | |
+
+## CVE-2024-22024
+
+| Resource Type | Link | Notes |
+| ------------- | ---- | ----- |
+| CVE           | [CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | 
+| Vendor KB    |  [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
 
 ## First Two Vulnerabilities - Authentication Bypass and Command Execution
 
@@ -30,7 +55,7 @@
 - [CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887)- Administrators can execute commands at operating system level
 - [Ivanti knowledge base article on ConnectAround and the other three](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways)
 
-- Exploit: [Metasploit module](http://packetstormsecurity.com/files/176668/Ivanti-Connect-Secure-Unauthenticated-Remote-Code-Execution.html) that uses the two of these to run commands on devices:
+- Exploit: [Metasploit module](http://packetstormsecurity.com/files/176668/Ivanti-Connect-Secure-Unauthenticated-Remote-Code-Execution.html) that uses the two of these to run commands on devices
 
 - [Blog post by Caitlin Condon at Rapid7](https://www.rapid7.com/blog/post/2024/01/11/etr-zero-day-exploitation-of-ivanti-connect-secure-and-policy-secure-gateways/)
 - [CISA Alert 2024/01/10](https://www.cisa.gov/news-events/alerts/2024/01/10/ivanti-releases-security-update-connect-secure-and-policy-secure-gateways)
