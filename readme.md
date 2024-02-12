@@ -1,12 +1,23 @@
 # Ivanti VPN Issues Links List
 
+## TL;DR
 
-## First Two Vulnerabilities
+| Resource Type | CVE Link | Type | Vendor KB |
+| ------------- | -------- | ---- | --------- |
+| CVE           | [CVE-2023-46805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4680) | Authentication Bypass | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+| CVE           | [CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887) | Command Execution for Authn'd Admins | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+| CVE           | [CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) | Privilege escalation in web interface from user to administrator | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+| CVE           | [CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) | SSRF allowing user-level access without authentication | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+| CVE           | [CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+
+ 
+
+## First Two Vulnerabilities - Authentication Bypass and Command Execution
 
 - Named "ConnectAround" by Kevin Beaumont
 - [CVE-2023-46805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4680) - Authentication bypass
 - [CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887)- Administrators can execute commands at operating system level
-- [Ivanti knowledge base article on ConnectAround and the other three](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US)
+- [Ivanti knowledge base article on ConnectAround and the other three](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways)
 
 - Exploit: [Metasploit module](http://packetstormsecurity.com/files/176668/Ivanti-Connect-Secure-Unauthenticated-Remote-Code-Execution.html) that uses the two of these to run commands on devices:
 
@@ -22,7 +33,7 @@
 [CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) - Privilege escalation in web interface from user to administrator
 [CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) - SSRF allowing user-level access without authentication
 
-[Ivanti Knowledge Base article on third and fourth vulns](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure?language=en_US)
+[Ivanti Knowledge Base article on third and fourth vulns](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure)
 
 [TechCrunch piece on third and fourth vulns](https://techcrunch.com/2024/01/31/ivanti-patches-two-zero-days-under-attack-but-finds-another/)
 [CISA Supplemental Directive updated for third and fourth vulns](https://www.cisa.gov/news-events/directives/supplemental-direction-v1-ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure)
@@ -34,7 +45,7 @@
 - exploited by Feb 9
 
 - [CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024)
-- [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure?language=en_US)
+- [Ivanti Knowledge base article on fifth vulnerability](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure)
 - [Open Source unvetted Scanner for CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024/blob/main/cve_2024_22024.py)
 
 - [Bleeping Computer article on CVE-2024-22024](https://www.bleepingcomputer.com/news/security/ivanti-patch-new-connect-secure-auth-bypass-bug-immediately/)
