@@ -1,15 +1,4 @@
-# Ivanti VPN Issues Links List
-
-## Vulnerability Chart of Quick Links
-
-| CVE Link | Type | Vendor KB |
-| -------- | ---- | --------- |
-|[CVE-2023-46805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4680) | Authentication Bypass | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
-|[CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887) | Command Execution for Authn'd Admins | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
-|[CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) | Privilege escalation in web interface from user to administrator | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
-|[CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) | SSRF allowing user-level access without authentication | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
-|[CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [KB-CVE-2024-22024](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
-
+# Ivanti VPN Issues 2024 Jan-Feb
 
 ## CVE-2023-46805 and CVE-2024-21887 -  disclosed Wed, Jan 10
 
@@ -49,3 +38,12 @@
 
 
 
+## Vulnerability Chart of Quick Links
+
+| CVE Link | Type | Vendor KB |
+| -------- | ---- | --------- |
+|[CVE-2023-46805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4680) | Authentication Bypass | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+|[CVE-2024-21887](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21887) | Command Execution for Authn'd Admins | [KB-2023-46805-and-2024-21887](https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways) | 
+|[CVE-2024-21888](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21888) | Privilege escalation in web interface from user to administrator | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+|[CVE-2024-21893](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21893) | SSRF allowing user-level access without authentication | [KB-CVE-2024-21888-and-21893](https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
+|[CVE-2024-22024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22024) | Authentication Bypass via XXE in SAML | [KB-CVE-2024-22024](https://forums.ivanti.com/s/article/CVE-2024-22024-XXE-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure) |
